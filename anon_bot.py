@@ -2,7 +2,8 @@ import telebot
 from telebot import types
 
 # Вставь токен своего бота от @BotFather
-TOKEN = "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"
+import os
+TOKEN = os.getenv("TOKEN")
 # Вставь СВОЙ цифровой Telegram ID
 ADMIN_ID = 8490943503
 
